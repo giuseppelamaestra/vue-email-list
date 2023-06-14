@@ -26,12 +26,12 @@ createApp({
         }
        },
        
-
+   },
 
   created(){
     this.generateMailList(10);
     
-  },
+  
    
   }
 
