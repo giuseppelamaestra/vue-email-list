@@ -16,10 +16,20 @@ createApp({
                 
         
           });
+
        },
+     
+       generateMailList(numberOfMails){
+        this.numberOfMails = numberOfMails;
+        for(let i=0; i < numberOfMails; i++){
+         this.addNewEmail();
+        }
+       },
+       
+
 
   created(){
-    this.getNewRandomMail();
+    this.generateMailList(10);
     
   },
    
