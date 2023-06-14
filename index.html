@@ -15,7 +15,7 @@
    
    
    
-   <ul class="mail-list">
+   <ul class="mail-list" v-if="mailList.length >= numberOfMails">
 
     <li class="mail" v-for="mail in mailList" >
           {{ mail }}
